@@ -1,0 +1,183 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+.mesa {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px;
+}
+
+.cartas {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.arriba, .abajo {
+    position: absolute;
+}
+
+.arriba{
+    top: 5px;
+    left: 5px;
+    text-align: left;
+}
+
+.abajo{
+    bottom: 5px;
+    right: 5px;
+    text-align: right;
+    transform: rotate(180deg);
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+.carta div{
+    margin: 10px 0;
+}
+
+.primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 100%;
+}
+
+.primero div{
+    margin: 0 20%;
+}
+
+.solo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 20%;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 20%;
+}
+
+.segundo div{
+    margin: 0 20%;
+}
+
+.tercero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 20%;
+    transform: rotate(180deg);
+}
+
+.tercero div{
+    margin: 0 20%;
+}
+
+.carta-3{
+    color: red;
+}
+
+.cartas:nth-child(1) .arriba,
+.cartas:nth-child(1) .abajo,
+.cartas:nth-child(1) .carta div {
+    color: black;
+}
+
+.cartas:nth-child(2) .arriba,
+.cartas:nth-child(2) .abajo,
+.cartas:nth-child(2) .carta div {
+    color: black;
+}
+
+.cartas:nth-child(3) .arriba,
+.cartas:nth-child(3) .abajo,
+.cartas:nth-child(3) .carta div {
+    color: black;
+}
+
+.cartas:nth-child(4) .arriba,
+.cartas:nth-child(4) .abajo,
+.cartas:nth-child(4) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(5) .arriba,
+.cartas:nth-child(5) .abajo,
+.cartas:nth-child(5) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(6) .arriba,
+.cartas:nth-child(6) .abajo,
+.cartas:nth-child(6) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(7) .arriba,
+.cartas:nth-child(7) .abajo,
+.cartas:nth-child(7) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(8) .arriba,
+.cartas:nth-child(8) .abajo,
+.cartas:nth-child(8) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(9) .arriba,
+.cartas:nth-child(9) .abajo,
+.cartas:nth-child(9) .carta div {
+    color: red;
+}
+
+.cartas:nth-child(10) .arriba,
+.cartas:nth-child(10) .abajo,
+.cartas:nth-child(10) .carta div {
+    color: black;
+}
+
+.cartas:nth-child(11) .arriba,
+.cartas:nth-child(11) .abajo,
+.cartas:nth-child(11) .carta div {
+    color: black;
+}
+
+.cartas:nth-child(12) .arriba,
+.cartas:nth-child(12) .abajo,
+.cartas:nth-child(12) .carta div {
+    color: black;
+}
